@@ -1,6 +1,6 @@
-package services;
+package appSewaKamera.services;
 
-import entities.stok;
+import appSewaKamera.entities.stok;
 
 import java.util.ArrayList;
 

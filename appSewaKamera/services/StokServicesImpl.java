@@ -1,10 +1,12 @@
-package services;
+package appSewaKamera.services;
 
-import entities.stok;
-import repositories.StokRepositoriesImpl;
+import appSewaKamera.entities.stok;
+import appSewaKamera.repositories.StokRepositoriesImpl;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 
+@Component
 public class StokServicesImpl implements StokServices{
 
     private StokRepositoriesImpl stokRepositoriesImpl;

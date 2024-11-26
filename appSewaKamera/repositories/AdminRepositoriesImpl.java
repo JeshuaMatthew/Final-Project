@@ -1,12 +1,15 @@
-package repositories;
+package appSewaKamera.repositories;
 
-import config.Database;
-import entities.admin;
+import appSewaKamera.config.Database;
+import appSewaKamera.entities.admin;
+import org.springframework.stereotype.Component;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
+@Component
 public class AdminRepositoriesImpl implements  AdminRepositories{
     private final Database database;
 

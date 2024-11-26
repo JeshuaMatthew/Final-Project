@@ -1,6 +1,6 @@
-package services;
+package appSewaKamera.services;
 
-import entities.admin;
+import appSewaKamera.entities.admin;
 
 import java.util.ArrayList;
 

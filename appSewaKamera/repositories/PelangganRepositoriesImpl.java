@@ -1,13 +1,16 @@
-package repositories;
+package appSewaKamera.repositories;
 
 
-import config.Database;
-import entities.pelanggan;
+import appSewaKamera.config.Database;
+import appSewaKamera.entities.pelanggan;
+import org.springframework.stereotype.Component;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
+@Component
 public class PelangganRepositoriesImpl implements PelangganRepositories {
     private final Database database;
 
@@ -79,8 +82,6 @@ public class PelangganRepositoriesImpl implements PelangganRepositories {
             preparedStatement.setString(5,pelangganDat.getTanggalPemesanan());
             preparedStatement.setString(6,pelangganDat.getTanggalPengembalian());
             preparedStatement.setInt(7,pelangganDat.getRentAmmount());
-
-            System.out.println("sampe " + id);
 
 
             int rowsAffected = preparedStatement.executeUpdate();

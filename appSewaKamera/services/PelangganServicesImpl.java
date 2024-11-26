@@ -1,11 +1,13 @@
-package services;
+package appSewaKamera.services;
 
-import entities.pelanggan;
-import repositories.PelangganRepositoriesImpl;
+import appSewaKamera.entities.pelanggan;
+import appSewaKamera.repositories.PelangganRepositoriesImpl;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 
+@Component
 public class PelangganServicesImpl implements PelangganServices {
 
     private PelangganRepositoriesImpl pelangganRepositoriesImpl;

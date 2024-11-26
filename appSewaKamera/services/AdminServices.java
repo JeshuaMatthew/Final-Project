@@ -1,8 +1,8 @@
-package services;
+package appSewaKamera.services;
 
-import entities.admin;
-import entities.pelanggan;
-import entities.stok;
+import appSewaKamera.entities.admin;
+import appSewaKamera.entities.pelanggan;
+import appSewaKamera.entities.stok;
 
 import java.util.ArrayList;
 

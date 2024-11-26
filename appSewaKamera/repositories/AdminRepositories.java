@@ -1,6 +1,6 @@
-package repositories;
+package appSewaKamera.repositories;
 
-import entities.admin;
+import appSewaKamera.entities.admin;
 import java.util.ArrayList;
 
 public interface AdminRepositories {

@@ -1,6 +1,6 @@
-package services;
+package appSewaKamera.services;
 
-import entities.pelanggan;
+import appSewaKamera.entities.pelanggan;
 
 import java.util.ArrayList;
 

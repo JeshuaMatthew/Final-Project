@@ -1,12 +1,14 @@
-package services;
+package appSewaKamera.services;
 
 
-import entities.admin;
-import repositories.AdminRepositoriesImpl;
+import appSewaKamera.entities.admin;
+import appSewaKamera.repositories.AdminRepositoriesImpl;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Objects;
 
+@Component
 public class AdminAccountRegistrationImpl implements AdminAccountRegistration {
 
 

@@ -1,4 +1,4 @@
-package entities;
+package appSewaKamera.entities;
 
 public class pelanggan {
     private String alamat;

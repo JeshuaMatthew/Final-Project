@@ -1,6 +1,6 @@
-package repositories;
+package appSewaKamera.repositories;
 
-import entities.stok;
+import appSewaKamera.entities.stok;
 import java.util.ArrayList;
 
 public interface StokRepositories {

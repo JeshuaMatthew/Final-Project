@@ -1,12 +1,14 @@
-package services;
+package appSewaKamera.services;
 
-import entities.admin;
-import entities.pelanggan;
-import entities.stok;
+import appSewaKamera.entities.admin;
+import appSewaKamera.entities.pelanggan;
+import appSewaKamera.entities.stok;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
+@Component
 public class AdminServicesImpl implements AdminServices{
 
     private AdminAccountRegistrationImpl adminAccountRegistrationImpl;

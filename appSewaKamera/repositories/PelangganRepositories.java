@@ -1,6 +1,6 @@
-package repositories;
+package appSewaKamera.repositories;
 
-import entities.pelanggan;
+import appSewaKamera.entities.pelanggan;
 import java.util.ArrayList;
 
 public interface PelangganRepositories {

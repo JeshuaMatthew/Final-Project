@@ -1,14 +1,16 @@
-package repositories;
+package appSewaKamera.repositories;
 
 
-import config.Database;
-import entities.stok;
+import appSewaKamera.config.Database;
+import appSewaKamera.entities.stok;
+import org.springframework.stereotype.Component;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
 
+@Component
 public class StokRepositoriesImpl implements StokRepositories {
     private final Database database;
     public StokRepositoriesImpl(Database database) {
