@@ -59,9 +59,9 @@ public class AdminServicesImpl implements AdminServices{
     @Override
     public boolean enterAccount() {
         System.out.print("Masukan Username : ");
-        String username = input.nextLine();
+        String username = input.next();
         System.out.print("Masukan Password : ");
-        String pwd = input.nextLine();
+        String pwd = input.next();
 
         if(!adminAccountRegistrationImpl.login(username,pwd)){
             System.out.println("Username Atau Password Yang Anda Masukan Salah !!");
