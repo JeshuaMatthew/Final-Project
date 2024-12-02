@@ -125,8 +125,6 @@ public class StokRepositoriesImpl implements StokRepositories {
             return false;
         }
 
-        System.out.println("id : "+id);
-
         try {
             PreparedStatement preparedStatement = conn.prepareStatement(sqlStatement);
 

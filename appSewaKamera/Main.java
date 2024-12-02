@@ -20,7 +20,7 @@ public class Main{
 
     @Bean
     Database database (){
-        Database database = new Database("bisnis_penjualan_kamera", "root","", "localhost","3306");
+        Database database = new Database("bisnis_sewa_kamera", "root","", "localhost","3306");
         database.setup();
         return database;
     }

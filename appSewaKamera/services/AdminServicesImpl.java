@@ -102,7 +102,6 @@ public class AdminServicesImpl implements AdminServices{
     @Override
     public void addStock() {
         System.out.print("Masukan Nama Stok : ");
-        input.nextLine();
         String newStockName = input.nextLine();
         System.out.print("Masukan Harga Sewa : ");
         int newRentPrice = input.nextInt();
